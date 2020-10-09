@@ -27,7 +27,7 @@ Personally, I would love the opportunity to become a front-end developer and man
 
 
 ### 3. It keeps you coding
-As any fellow bootcamp grad knows, completing an intensive program is tough and it can be really tempting to take a break from coding. While it's definitely a good idea to take a couple of days off every now and then, you should never stop coding altogether. It can seem hard to find time to code, especially given how much you have to do when beginning your job search, for instance trying to put your resume together, getting those project demo videos recorded, and developing your network. For me, creating my portfolio website was a great opportunity to feel as though I was working on my job search while still keeping my coding skills sharp. It also gives you the opportunity to learn new things, shows employers that you're still working on projects, and keeps your GitHub contributions in the green 
+As any fellow bootcamp grad knows, completing an intensive program is tough and it can be really tempting to take a break from coding. While it's definitely a good idea to take a couple of days off every now and then, you should never stop coding altogether. It can seem hard to find time to code, especially given how much you have to do when beginning your job search, for instance trying to put your resume together, getting those project demo videos recorded, and developing your network. For me, creating my portfolio website was a great opportunity to feel as though I was working on my job search while still keeping my coding skills sharp. It also gives you the opportunity to learn new things, shows employers that you're still working on projects, and keeps your GitHub contributions in the green. 
 
 
 ### 4. It's fun!
@@ -37,9 +37,9 @@ For me, one of the most enjoyable aspects of creating my portfolio website was b
 ***
 <br></br>
 
-<p align="center">
-    <img src="./github-icon.png" />
-</p>
+![GitHub Image](./github-image.jpg)
+
+*photo by [@richygreat](https://unsplash.com/@richygreat)*
 
 ## Why Use GitHub Pages?
 
@@ -64,9 +64,9 @@ Once you've deployed your website, it's really simple to make updates and redepl
 ***
 <br></br>
 
-<p align="center">
-    <img src="./react-icon.png" />
-</p>
+![React Image](./react-image.jpg)
+
+*photo by [@sapegin](https://unsplash.com/@sapegin)*
 
 ## Why Use React?
 
@@ -76,7 +76,7 @@ There are different options when it comes to building your website with GitHub P
 I personally love using React, so choosing to utilise it for my portfolio website wasn't a hard decision. If you already have experience working with React, this should be a fairly intuitive process. Depending on what you want to show, you can make it as straightforward or complex as you like and it's a great way to continue building on your skills. If you've never worked with React before, this could be a great opportunity to learn something new. There are so many fantastic React.js tutorials out there and it's easy to keep your site simple while you develop your skills. Once you become more comfortable with it, you can always add more features.
 
 ### 2. You gain access to many amazing libraries
-Working with React gives you access to a variety of different libraries which allow you to further personalise your app. Want to add videos? There's a [library](https://www.npmjs.com/package/react-player) for that. Want to add CSS specifically geared towards React? There's a (library)[https://www.npmjs.com/package/react-bootstrap] for that. Want to create a game using Unity and have it in your React app? Yep, there's also a (library)[https://www.npmjs.com/package/react-unity-webgl] for that.
+Working with React gives you access to a variety of different libraries which allow you to further personalise your app. Want to add videos? There's a [library](https://www.npmjs.com/package/react-player) for that. Want to add CSS specifically geared towards React? There's a [library](https://www.npmjs.com/package/react-bootstrap) for that. Want to create a game using Unity and have it in your React app? Yep, there's also a [library](https://www.npmjs.com/package/react-unity-webgl) for that.
 
 ### 3. There's a really strong React.js community
 No matter what question you have when it comes to working with React, somebody will have answered it somewhere. React is supported by Facebook and Instagram engineering teams, as well as dedicated experts, and there is a wealth of documentation, Stack Overflow discussions, Dev and Medium blog posts, and other resources to help you along in your React journey.
@@ -93,4 +93,3 @@ In future posts, I'll be working through exactly how I built my website using Gi
 2. "[Setting up a GitHub Pages site with Jekyll
 ](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)", GitHubDocs, Accessed October 8 2020
 3. "[What is GitHub Pages](https://pages.github.com/)", GitHub Pages, Accessed October 8 2020
-
