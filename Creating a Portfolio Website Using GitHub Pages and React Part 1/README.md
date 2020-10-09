@@ -91,3 +91,4 @@ In future posts, I'll be working through exactly how I built my website using Gi
 2. "[Setting up a GitHub Pages site with Jekyll
 ](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)", GitHubDocs, Accessed October 8 2020
 3. "[What is GitHub Pages](https://pages.github.com/)", GitHub Pages, Accessed October 8 2020
+
