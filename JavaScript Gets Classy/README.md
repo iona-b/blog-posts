@@ -1,3 +1,7 @@
+![Cover Image](./cover-image.jpg)
+
+*photo by [@bjorns](https://unsplash.com/@bjorns)*
+
 # JavaScript Gets Classy
 
 ES6 formally introduced classes to JavaScript, along with a range of other long-awaited features. While classes are not strictly necessary and can be described as *syntactical sugar*, they are incredibly useful in allowing users to create clean and efficient code. In this post, we'll take a look at some of the key features of JavaScript classes, and how we can use them effectively.
@@ -305,11 +309,11 @@ Classes are one of the newest features of JavaScript and have been a valuable ad
 
 ## Sources  
 
-https://www.developintelligence.com/blog/2016/06/why-do-es6-classes-exist-and-why-now/
-https://everyday.codes/javascript/please-stop-using-classes-in-javascript/
-http://es6-features.org/
-https://www.w3schools.com/jsref/jsref_class_super.asp
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
-https://coryrylan.com/blog/javascript-prototypal-inheritance
+1. "[Why do ES6 Classes exist and why now?](https://www.developintelligence.com/blog/2016/06/why-do-es6-classes-exist-and-why-now/)", DevelopIntelligence, Accessed July 27 2020
+2. "[Please Stop Using Classes in JavaScript](https://everyday.codes/javascript/please-stop-using-classes-in-javascript/)", everyday.codes, Accessed July 27 2020
+3. "[ECMAScript 6](http://es6-features.org/)", ES6-Features, Accessed July 27 2020
+4. "[JavaScript Class Super Keyword](https://www.w3schools.com/jsref/jsref_class_super.asp)", W3Schools, Accessed July 27 2020
+5. "[this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)", MDN Web Docs, Accessed July 28 2020
+6. "[static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)", MDN Web Docs, Accessed July 28 2020
+7. "[Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)", MDN Web Docs, Accessed July 28 2020
+8. "[JavaScript Prototypal Inheritance](https://coryrylan.com/blog/javascript-prototypal-inheritance)", Cory Rylan, Accessed July 28 2020

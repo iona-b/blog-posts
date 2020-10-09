@@ -1,6 +1,6 @@
 ![Cover Image](./cover-image.jpg)
 
-photo by [@joannakosinska](https://unsplash.com/@joannakosinska)
+*photo by [@joannakosinska](https://unsplash.com/@joannakosinska)*
 
 # Creating a Portfolio Website Using GitHub Pages and React: Part 1
 

@@ -1,3 +1,7 @@
+![Cover Image](./cover-image.jpg)
+
+*photo by [@georgie_cobbs](https://unsplash.com/@georgie_cobbs)*
+
 # Params and Rails
 
 Experimenting with creating your first Rails app can be an exciting experience, but one aspect that can be confusing for beginning developers is the idea of params, and how to ensure we have access to the data we need, whether it be information given to us by users, or items that we want to pass behind the scenes. In this post we'll take a look at some different ways in which this can be achieved.
@@ -129,7 +133,7 @@ While it seems to the user that they are simply clicking a link, we are passing 
 
 Depending on the specific needs of your app, any one of these different methods can be useful in terms of taking data from your user, and having access to that information. You may want to use a hidden_field_tag if your user is submitting a form, and your application requires that you pass on additional information. Passing data through a link_to or a button_to allows you to carry over params in situations where your user isn't entering any new information, and you just need to carry data over behind the scenes. 
 
-### Sources
+## Sources
 
-https://api.rubyonrails.org/classes/ActionController/Parameters.html
-https://apidock.com/rails/ActionView/Helpers/FormTagHelper/hidden_field_tag
+1. "[Action Controller Parameters](https://api.rubyonrails.org/classes/ActionController/Parameters.html)", API, Accessed September 8 2020
+2. "[hidden_field_tag](https://apidock.com/rails/ActionView/Helpers/FormTagHelper/hidden_field_tag)", API, Accessed September 8 2020

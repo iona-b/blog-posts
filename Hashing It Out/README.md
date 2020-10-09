@@ -1,3 +1,7 @@
+![Cover Image](./cover-image.jpg)
+
+*photo by [@karishea](https://unsplash.com/@karishea)*
+
 # Hashing It Out in JavaScript
 
 Hashmaps are a type of data structure used in computer science to format, organise, and manage data. In this blog post, we'll take a look at why we use them, how they work, and what the advantages and disadvantages can be. Additionally, we'll also quickly examine the introduction of Map to JavaScript with ES6.
@@ -158,7 +162,7 @@ This is a very brief overview of some of the features of Map in JavaScript, and 
 
 </br>
 
-### Sources
+## Sources
 
 1. "[Concept of Hashing](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Hashing/hashing.html#:~:text=The%20example%20of%20a%20hash,Congress%20Classification%20for%20call%20numbers)", Carnegie Mellon University, accessed August 12th, 2020
 2. "[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)", MDN web docs, accessed August 12th, 2020
