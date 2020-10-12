@@ -31,7 +31,7 @@ As any fellow bootcamp grad knows, completing an intensive program is tough and 
 
 
 ### 4. It's fun!
-For me, one of the most enjoyable aspects of creating my portfolio website was being able to make something in exactly the way I wanted to. While there were certain things that I knew I had to include, I had free reign over the look and functionality of my portfolio. It was nice coming from the bootcamp world of rules and regulations with regards to projects and instead being able to make something that looked and worked exactly how I wanted it to.
+For me, one of the most enjoyable aspects of creating my portfolio website was being able to make something in exactly the way I wanted to. While there were certain things that I knew I had to include, I had free rein over the look and functionality of my portfolio. It was nice coming from the bootcamp world of rules and regulations with regards to projects and instead being able to make something that looked and worked exactly how I wanted it to.
 
 <br></br>
 ***
