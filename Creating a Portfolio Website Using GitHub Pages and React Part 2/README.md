@@ -36,7 +36,7 @@ You'll need to have a text editor installed in order to edit your code. I really
 ## Step 2: Creating Your GitHub Repository
 The next step is to set up the repository which will contain your website files. After logging into your GitHub account, click the button to [create a new repository](https://github.com/new). In order for GitHub Pages to work correctly, you'll need to name this repository like so: <username>.github.io, where the username is your **exact** GitHub username.
 
-** Image **
+![Create Repository](./create-repository.jpg)
 
 So, mine would be iona-b.github.io.
 
@@ -67,7 +67,7 @@ Your additions should look something like this:
 
 <br></br>
 
-![Cover Image](./package-json.png)
+![Package JSON](./package-json.png)
 
 <br></br>
 
@@ -90,6 +90,8 @@ Simply run ```npm run deploy``` and the script you added to your package.json fi
 ## Step 8: Update Your Repository Settings
 
 Go to settings in your repository and look at the GitHub Pages section. Underneath the Source heading, you should have the option to select which branch the sit is being built from. Change the branch to gh-pages. This way, your repository will know what you want to use to build your website.
+
+![GitHub Pages](./github-pages.jpg)
 
 ## Step 9: Celebrate Your New Website
 Sure, you don't actually have anything on it at this point, but you've done the hard work and now you can start on the fun part of personalising your portfolio website!
