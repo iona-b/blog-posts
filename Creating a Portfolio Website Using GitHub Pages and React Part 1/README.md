@@ -4,6 +4,8 @@
 
 # Creating a Portfolio Website Using GitHub Pages and React: Part 1
 
+**Part 2 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
+
 As a recent graduate from the Flatiron School Software Engineering program, I've just begun my job search and have been trying to grow my online presence. One important aspect of this has been creating my own portfolio website. In this post, I'll be discussing why a portfolio is essential for any new software developer and why GitHub Pages and React are great tools for creating it.
 
 In future posts, I'll be going step by step through the process of creating a portfolio website using GitHub Pages and React, so stay tuned!
