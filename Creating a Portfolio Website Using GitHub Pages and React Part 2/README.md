@@ -8,7 +8,7 @@
 
 As a budding software engineer, I decided to create a portfolio website so that I had more opportunity to share my experience and projects and because it was a great way to keep developing my coding skills. In this series of blog posts, I'll be talking about why I created my portfolio website using GitHub Pages and React.js and what steps I took to achieve this. **In this post I'll be working my way through creating an initial React app and getting it online using GitHub Pages.**
 
-**Click [here](ionabrabender.com) to see the website I've created using GitHub Pages and React.**
+**Click [here](https://ionabrabender.com/) to see the website I've created using GitHub Pages and React.**
 
 <br></br>
 ***
