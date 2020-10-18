@@ -85,6 +85,7 @@ Once you've completed the above steps, you should push your changes to GitHub. T
 
 ```
 git init
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin <repository URL>
@@ -110,7 +111,7 @@ Go to settings in your repository and look at the GitHub Pages section. Undernea
 <br></br>
 
 ## Step 9: Celebrate Your Success in Building Your Website!!
-Sure, it's not quite a full-blown portfolio website yet, but you've done the hard work and now you can start on the fun part!
+Your site should now be available at your-username.github.io/. Sure, it's not quite a full-blown portfolio website yet, but you've done the hard work and now you can start on the fun part!
 
 ![Celebration Image](./celebration-image.jpg)
 
