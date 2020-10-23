@@ -122,7 +122,7 @@ Your site should now be available at your-username.github.io/. Sure, it's not qu
 ***
 <br></br>
 
-In the next post, I'll be looking more at the React app itself and how we can use it to create an effective portfolio website. See you then!
+In the next post, I'll be looking at how to use your own custom domain name for your website. See you then!
 
 **Part 1 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
 
