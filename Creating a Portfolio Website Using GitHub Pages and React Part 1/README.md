@@ -89,6 +89,7 @@ No matter what question you have when it comes to working with React, somebody w
 
 In future posts, I'll be working through exactly how I built my website using GitHub Pages and React. See you then!
 
+**Part 2 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
 
 ## Sources
 1. "[About GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages)", GitHub Docs, Accessed October 8 2020

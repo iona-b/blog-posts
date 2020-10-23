@@ -124,6 +124,7 @@ Your site should now be available at your-username.github.io/. Sure, it's not qu
 
 In the next post, I'll be looking more at the React app itself and how we can use it to create an effective portfolio website. See you then!
 
+**Part 1 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
 
 ## Sources
 1. "[Getting Started with GitHub Pages](https://guides.github.com/features/pages/)", GitHub Guides, Accessed October 16 2020
