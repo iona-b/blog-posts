@@ -131,11 +131,11 @@ In the next post, I'll be looking at how to use your own custom domain name for 
 **Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
 ## Sources
-1. "[Getting Started with GitHub Pages](https://guides.github.com/features/pages/)", GitHub Guides, Accessed October 16 2020
-2. "[Install Git](https://github.com/git-guides/install-git)", Git Guides, Accessed October 16 2020
-3. "[Understanding the package.json file](https://www.blog.ezekielekunola.com/understanding-the-package.json-file)", Tech Digests, Accessed October 16 2020
-4. "[Beginner's Setup Guide for Git & Github on Mac OS X](http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/)", burnedpixel, Accessed October 16 2020
-5. "[What exactly is Node.js?](https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/)", freeCodeCamp, Accessed October 16 2020
-6. "[What is npm?](https://www.w3schools.com/whatis/whatis_npm.asp)", w3schools, Accessed October 16 2020
-7. "[How to build and deploy a React app to Github pages in less than 5 minutes](https://medium.com/mobile-web-dev/how-to-build-and-deploy-a-react-app-to-github-pages-in-less-than-5-minutes-d6c4ffd30f14)", Anjali Sharma on Medium, Accessed October 16 2020
-8. "[How to deploy React App to GitHub Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)", Ibrahim Ragab on DEV, Accessed October 16 2020
+1. "[Getting Started with GitHub Pages](https://guides.github.com/features/pages/)", GitHub Guides, Accessed October 16, 2020
+2. "[Install Git](https://github.com/git-guides/install-git)", Git Guides, Accessed October 16, 2020
+3. "[Understanding the package.json file](https://www.blog.ezekielekunola.com/understanding-the-package.json-file)", Tech Digests, Accessed October 16, 2020
+4. "[Beginner's Setup Guide for Git & Github on Mac OS X](http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/)", burnedpixel, Accessed October 16, 2020
+5. "[What exactly is Node.js?](https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/)", freeCodeCamp, Accessed October 16, 2020
+6. "[What is npm?](https://www.w3schools.com/whatis/whatis_npm.asp)", w3schools, Accessed October 16, 2020
+7. "[How to build and deploy a React app to Github pages in less than 5 minutes](https://medium.com/mobile-web-dev/how-to-build-and-deploy-a-react-app-to-github-pages-in-less-than-5-minutes-d6c4ffd30f14)", Anjali Sharma on Medium, Accessed October 16, 2020
+8. "[How to deploy React App to GitHub Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)", Ibrahim Ragab on DEV, Accessed October 16, 2020

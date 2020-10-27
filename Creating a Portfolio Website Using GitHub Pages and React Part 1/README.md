@@ -96,7 +96,7 @@ In future posts, I'll be working through exactly how I built my website using Gi
 **Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
 ## Sources
-1. "[About GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages)", GitHub Docs, Accessed October 8 2020
+1. "[About GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages)", GitHub Docs, Accessed October 8, 2020
 2. "[Setting up a GitHub Pages site with Jekyll
-](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)", GitHubDocs, Accessed October 8 2020
-3. "[What is GitHub Pages](https://pages.github.com/)", GitHub Pages, Accessed October 8 2020
+](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)", GitHubDocs, Accessed October 8, 2020
+3. "[What is GitHub Pages](https://pages.github.com/)", GitHub Pages, Accessed October 8, 2020

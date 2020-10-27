@@ -96,9 +96,9 @@ In the next post, I'll be looking more at the React app itself and how we can us
 **Part 2 on how to get started with your GitHub Pages and React app is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
 
 ## Sources
-1. "[Configuring a custom domain for your GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site)", GitHub Docs, Accessed October 23 2020
+1. "[Configuring a custom domain for your GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site)", GitHub Docs, Accessed October 23, 2020
 2. "[Changing your GitHub username
-](hhttps://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/changing-your-github-username)", GitHub Docs, Accessed October 23 2020
-2. "[GoDaddy Domain with GitHub Pages](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef)", Jinna Balu on Medium, Accessed October 23 2020
-3. "[10 Best Domain Registrars](https://hostingfacts.com/domain-registrars/)", HostingFacts, Accessed October 23 2020
-4. "[What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/)", Cloudflare, Accessed October 23 2020
+](hhttps://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/changing-your-github-username)", GitHub Docs, Accessed October 23, 2020
+3. "[GoDaddy Domain with GitHub Pages](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef)", Jinna Balu on Medium, Accessed October 23, 2020
+4. "[10 Best Domain Registrars](https://hostingfacts.com/domain-registrars/)", HostingFacts, Accessed October 23, 2020
+5. "[What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/)", Cloudflare, Accessed October 23, 2020
