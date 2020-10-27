@@ -4,7 +4,9 @@
 
 # Creating a Portfolio Website Using GitHub Pages and React: Part 1
 
-**Part 2 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
+**Part 2 on how to get started with your GitHub Pages and React app is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
+<br>
+**Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
 As a recent graduate from the Flatiron School Software Engineering program, I've just begun my job search and have been trying to grow my online presence. One important aspect of this has been creating my own portfolio website. In this post, I'll be discussing why a portfolio is essential for any new software developer and why GitHub Pages and React are great tools for creating it.
 
@@ -90,6 +92,8 @@ No matter what question you have when it comes to working with React, somebody w
 In future posts, I'll be working through exactly how I built my website using GitHub Pages and React. See you then!
 
 **Part 2 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
+<br>
+**Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
 ## Sources
 1. "[About GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages)", GitHub Docs, Accessed October 8 2020
