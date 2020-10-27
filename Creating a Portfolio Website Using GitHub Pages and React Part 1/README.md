@@ -91,7 +91,7 @@ No matter what question you have when it comes to working with React, somebody w
 
 In future posts, I'll be working through exactly how I built my website using GitHub Pages and React. See you then!
 
-**Part 2 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
+**Part 2 on how to get started with your GitHub Pages and React app is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1).**
 <br>
 **Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 

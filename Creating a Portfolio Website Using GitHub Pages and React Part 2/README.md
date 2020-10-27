@@ -4,7 +4,7 @@
 
 # Creating a Portfolio Website Using GitHub Pages and React: Part 2
 
-**Part 1 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
+**Part 1 on why I chose GitHub Pages and React is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
 <br>
 **Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
@@ -126,7 +126,7 @@ Your site should now be available at your-username.github.io/. Sure, it's not qu
 
 In the next post, I'll be looking at how to use your own custom domain name for your website. See you then!
 
-**Part 1 is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
+**Part 1 on why I chose GitHub Pages and React is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-1-1mm4).**
 <br>
 **Part 3 on how to use a custom domain name is available [here](https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-3-54gl).**
 
