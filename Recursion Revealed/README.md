@@ -12,20 +12,25 @@ We can say that a function is recursive if it calls itself as a subroutine. Pers
 
 You might wonder how we can implement a function that calls itself. The trick is that each time a recursive function calls itself, it reduces the given problem into subproblems. The recursion call continues until it reaches a point where the subproblem can be solved without further recursion.
 
+Recursion is a method of solving problems where you solve smaller portions of the problem until you solve the original, larger problem.
+
 ### Why is Recursion Useful?
 
-Recursion is great.
+Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach. One good example of this would be searching through a file system.
 
 ### Elements of Recursion
 
-All recursive algorithms must have the following:
+When creating a recursive function, we need to include the following elements.
 
-Base Case (i.e., when to stop)
-Work toward Base Case
-Recursive Call (i.e., call ourselves)
-The "work toward base case" is where we make the problem simpler. The recursive call, is where we use the same algorithm to solve a simpler version of the problem. The base case is the solution to the "simplest" possible problem (For example, the base case to adding a list of numbers would be if the list had only one number... thus the answer is the number).
-
-Recursion is a method of solving problems where you solve smaller portions of the problem until you solve the original, larger problem. A method or function is recursive if it can call itself.
+1. Base Case
+    - Usually this is activated when a specific condition is met, for instance when the input reaches 0.
+    - When this condition is met, the function stops calling itself and returns the result.
+2. Logic to Reach Base Case
+    - This is where we carry out some logic that will help us to work towards the base case.
+    - For instance, if the condition for the base case is that the input is equal to 0, this logic could be subtracting from the base case.
+    - If we didn't have this logic, we could get stuck in an infinite loop.
+3. Recursive Call
+    - The recursive call is where we call the function within itself.
 
 ![Spiral](./spiral.jpg)
 
@@ -59,9 +64,9 @@ Let's go through this line by line.
 const recursiveSumToN = (n) => {
 
   if (n <= 1) {
-    return n;
+    return n; // BASE CASE: We're always counting the numbers from 1 to n, so this is our base case.
   } else {
-    return n + recursiveSumToN(n - 1);
+    return n + recursiveSumToN(n - 1); // LOGIC TO REACH BASE CASE AND RECURSIVE CALL: If n is still more than 1, we haven't reached our base case, so we need to call our function again.
   }
 
 }
@@ -76,14 +81,14 @@ Let's add some console logs to see what comes out.
 ```javascript
 const recursiveSumToN = (n) => {
 
-  if (n <= 1) {
     console.log("n: " + n);
-    console.log("We've hit the base case!");
-    return n;
-  } else {
-    console.log("n: " + n);
-    return n + recursiveSumToN(n - 1);
-  }
+
+    if (n <= 1) {
+        console.log("We've hit the base case!");
+        return n;
+    } else {;
+        return n + recursiveSumToN(n - 1);
+    }
 
 }
 
@@ -108,7 +113,7 @@ recursiveSumToN(5);
 function recursiveReverseString(string) {
 
   if (string === "") {
-    return "";
+    return ""; 
   }
   else {
     return recursiveReverseString(string.substr(1)) + string.charAt(0);
