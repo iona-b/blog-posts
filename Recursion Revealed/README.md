@@ -171,6 +171,7 @@ function recursiveReverseString(string) {
 }
 
 recursiveReverseString("hello");
+// olleh
 ```
 
 We can also add some console.logs to see how the string changes with each call:
