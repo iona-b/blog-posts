@@ -10,13 +10,14 @@ As a recent software engineering graduate, I've been spending a lot of time read
 
 We can say that a function is recursive if it calls itself as a subroutine. Personally, I've found that, while this makes sense in theory, it can take a while to really wrap your head around how recursion works. Essentially what we're doing is breaking something down into smaller problems by calling the function on itself. Once we reach a point where the problem can be solved without being further reduced, we stop the recursion call and return the answer.
 
-### When to Use Recursion Rather Over Iteration?
+### When to Use Recursion Rather Than Iteration?
 
-Recursion and iteration can often be used to similarly solve problems. Why then would we choose to implement a more complex recursive solution than a more straightforward iterative one? Here are three points to take into consideration when deciding which type of option use:
+Recursion and iteration can often be used to similarly solve problems. Why then would we choose to implement a recursive solution rather than a straightforward iterative one? Here are some points to take into consideration when deciding:
 
-1. Recursive solutions are often able to handle more complex problems and structures than iterative solutions. If you're dealing with, for instance, an elaborate tree structure, you'll probably want to use recursion.
-2. Iterative functions are generally faster than recursive ones, so if your program is suited to iteration and speed is important, you may want to consider the former.
-3. A downside of recursion can be the stack limit. If this is relevant to your function, iteration may be preferable.
+1. Recursive functions are normally shorter than iterative ones, which can (but doesn't always!) lead to cleaner and more legible code.
+2. Recursive solutions are often able to handle more complex problems and structures than iterative solutions. If you're dealing with, for instance, an elaborate tree structure, you'll probably want to use recursion.
+3. Iterative functions are generally faster than recursive ones, so if your program is suited to iteration and speed is important, you may want to consider the former.
+4. A downside of recursion can be the stack limit. If this is relevant to your function, iteration may be preferable.
 
 ### Elements of Recursion
 
@@ -24,10 +25,10 @@ When creating a recursive function, we need to include the following elements:
 
 1. A Base Case
     - Usually this is activated when a specific condition is met, for instance when the input reaches 0.
-    - When the function reaches the base case, the function stops calling itself and returns the result.
+    - When the function reaches the base case, it stops calling itself and returns the result.
 2. Logic to Reach Base Case
     - This is where the function performs logic that will bring us closer to the base case.
-    - For instance, if the condition for the base case is that the input is equal to 0, this logic could be subtracting from the base case.
+    - For instance, if the condition for the base case is that the input is equal to 0, this logic could be that 1 is subtracted from the input on each call.
     - Without this logic, we could get stuck in an infinite loop.
 3. Recursive Call
     - The recursive call is where we call the function within itself.
@@ -36,11 +37,11 @@ When creating a recursive function, we need to include the following elements:
 
 *photo by [@benji3pr](https://unsplash.com/@benji3pr)*
 
-### Example of Recursive Functions
+### Examples of Recursive Functions
 
 #### **Example 1: Recursively Sum Numbers From 1 to n**
 
-In this example, we're going to look at a function that takes a number, *n*, and returns the sum of all the numbers from 1 to n. Here is a possible recursive solution:
+In this example, we'll write a function that takes a number, *n*, and returns the sum of all the numbers from 1 to n:
 
 ```javascript
 const recursiveSumToN = (n) => {
@@ -97,9 +98,9 @@ recursiveSumToN(5)
         // 1
 ```
 
-The function works in to steps. It repeatedly calls recursiveSumToN until it reaches the base case. Once it fulfils this base case, it begins to resolve the other function calls.
+The function works in two steps. It repeatedly calls recursiveSumToN until it reaches the base case. Once it fulfils this base case, it begins to resolve the other function calls.
 
-It can also be useful to add some console.logs to our code in order to really see what is happening:
+It can also be useful to add some console.logs to our code to see the order in which things are happening:
 
 ```javascript
 const recursiveSumToN = (n) => {
@@ -126,7 +127,7 @@ recursiveSumToN(5);
 // 15
 ```
 
-*n* decreases by 1 each time until we hit our base case and the function returns our answer.
+So, *n* decreases by 1 each time until we hit our base case and the function returns our answer.
 
 ![Circles](./circles.jpg)
 
@@ -213,3 +214,4 @@ Being able to implement recursion can be very useful, especially in a technical 
 2. "[Principle of Recursion](https://leetcode.com/explore/learn/card/recursion-i/250/principle-of-recursion/1439/)", LeetCode, Accessed November 6, 2020
 3. "[What is the function of recursion? Why do we need recursion in programming?](https://www.quora.com/What-is-the-function-of-recursion-Why-do-we-need-recursion-in-programming)", Quora, Accessed November 6, 2020
 4. "[Recursion Explained (with Examples)](https://dev.to/christinamcmahon/recursion-explained-with-examples-4k1m)", Christina McMahon on DEV, Accessed November 6, 2020
+5. "[Recursion and Stack](https://javascript.info/recursion)", Christina McMahon on DEV, Accessed November 6, 2020
