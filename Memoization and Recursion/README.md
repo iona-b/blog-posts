@@ -18,6 +18,8 @@ Memoization is a way to potentially make functions that use recursion run faster
 
 To really understand memoization, I found it useful to look at how it is used when using recursion to calculate the *nth* number in the Fibonacci sequence. This is a very common example and could definitely be something you're asked to implement in a technical interview.
 
+*A quick note on the [Fibonacci Sequence](https://www.livescience.com/37470-fibonacci-sequence.html): This is a sequence of numbers where each number is the sum of the two preceding numbers. We always start with 0 and 1. The next number would then be another 1, because 0 + 1 = 1. We'd then get 2 (1 + 1 = 2), then 3 (1 + 2 = 3), and so on.*
+
 An initial recursive solution might look something like this:
 
 ```javascript
@@ -41,7 +43,7 @@ recursiveFibonacci(20);
 // 6765
 ```
 
-**If you're unclear on how recursion works, you can look at my previous [blog post](https://dev.to/ionabrabender/recursion-revealed-4gn3) which provides an overview of recursion, or [this post](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) which specifically tackles recursion and the fibonacci sequence.*
+*If you're unclear on how recursion works, you can look at my previous [blog post](https://dev.to/ionabrabender/recursion-revealed-4gn3) which provides an overview of recursion, or [this post](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) which specifically tackles recursion and the fibonacci sequence.*
 
 Yey, it works! But, while this function is just a couple of lines long, it's hugely inefficient and would take longer than the iterative alternative. The runtime is exponential, meaning that whenever we increase the input by 1, there is a huge growth in terms of how long it takes to compute. This is because the function is being called multiple times with the same arguments.
 
@@ -111,7 +113,9 @@ recursiveFibonacci(20);
 // 6765
 ```
 
-Great! We now have a more efficient recursive solution which avoids redoing the same work. Additionally, as this is a pretty generic function, we could even reuse it in combination with other recursive functions. In that case, you might also want to increase the number of arguments the function is able to take, for instance using ...args, in order to make it more abstract.
+Great! We now have a more efficient recursive solution which avoids redoing the same work. This means that, when implemented correctly, our runtime becomes linear rather than exponential, which is a huge improvement.
+
+Additionally, as this is a pretty generic function, we could even reuse it in combination with other recursive functions. In that case, you might also want to increase the number of arguments the function is able to take, for instance using ...args, in order to make it more abstract.
 
 ### A Note on Memoization
 By creating a cache, we're using additional space, so you have to decide whether that's worth the improved speed. If you have a very large range of inputs where it's fairly unlikely that you'll need to repeat the same calculations, memoization may not be an efficient solution after all.
