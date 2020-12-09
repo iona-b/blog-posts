@@ -36,7 +36,7 @@ end
 
 In these examples, we'll be writing tests which are directed at the Song class. I'll be writing these tests in the song_spec.rb file in the model directory, however, as I've covered below, these tests are by no means the only ones you might want to include in your model testing. Additionally, as you move forward with your application, you may also want to relocate these tests to the controller directory, depending on your preference.
 
-If you ran ```rails generate rspec:install``` **after** setting up the model you want to test in your Rails application, your test files should have been automatically generated. Inside the newly created spec directory, you should find a models folder. Within that, you should find a file named [name of your model]_spec.rb. If you don't have that file, simply create a new file within the spec folder and ensure you use the [name of your model]_spec.rb naming convention.
+If you ran ```rails generate rspec:install``` **after** setting up the model you want to test in your Rails application, your test files should have been automatically generated. Inside the newly created spec directory, you should find a models folder. Within that, you should find a file named [name of your model]_spec.rb. If you don't have that file, simply create a new file within the spec folder and ensure you follow the [name of your model]_spec.rb naming convention.
 
 For me, this file is called song_spec.rb. My spec folder looks like this:
 
@@ -110,7 +110,7 @@ This code does exactly what it says - it checks if @song is valid and returns tr
 
 The rest of our tests will follow the same pattern as the create test. We first create an it do ... end block describing what the test does, before filling in the code which checks if the action was successful.
 
-Here, we want to check if we can **read** the instance of the instance we created at the beginning. In this test, we find the song with the same title as the original @song instance and check if the result equals @song. If it does, our test has been successful. If not, there's a problem with our read action. 
+Here, we want to check if we can **read** the instance we created at the beginning. In this test, we find the song with the same title as the original @song instance and check if the result equals @song. If it does, our test has been successful. If not, there's a problem with our read action. 
 
 ```ruby
 it 'checks that a song can be read' do
@@ -139,7 +139,7 @@ it 'checks that a song can be destroyed' do
     expect(Song.count).to eq(0)
 end
 ```
-Of course, if you've created other instances, this test won't work correctly. In that case, you could do something like this.
+Of course, if you've already created other instances of the class you're testing, this test won't work correctly. In that case, you could use the destroy method and then search for the instance that should now be destroyed. If the search returns nil, you know destroy has worked as expected.
 
 ```ruby
 it 'checks that a song can be destroyed' do
