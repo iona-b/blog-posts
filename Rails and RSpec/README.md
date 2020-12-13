@@ -52,7 +52,7 @@ RSpec.describe Song, type: :model do
 end
 ```
 
-This code shows that we are setting up an RSpec test for our Song class. The tests will be aimed at our model and we can write our code inside this block.
+This code shows that we are setting up an RSpec test for our Song class. The tests will be aimed at our Song model and we can write our code inside this block.
 
 Before we can check if our CRUD actions work as expected, we need to create an instance of the Song class. To do that, we can set up a before(:all) do ... end block, like so:
 
@@ -104,7 +104,7 @@ end
 
 This code does exactly what it says - it checks if @song is valid and returns true or false depending on the result. If @song is valid, our test will pass. If the result is false, we know that our create action has been unsuccessful and that there is a bug in our code, which we need to locate and fix.
 
-**To perform the test, run ```rspec``` in your terminal.**
+**To perform the test, cd into your app directory and run ```rspec``` in your terminal.**
 
 #### Read
 
@@ -147,6 +147,10 @@ it 'checks that a song can be destroyed' do
     expect(Song.find_by(title: "Like a Rolling Stone - Remastered")).to be_nil
 end
 ```
+
+If everything is working correctly, you should end up seeing something like this:
+
+![Success](./success.png)
 
 ## A Note on RSpec
 
